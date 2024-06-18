@@ -1,0 +1,112 @@
+.bg-color {
+  background-color: #f8f8ff;
+}
+.navbar{
+    position: fixed;
+    z-index: 1; /* Ensure the navbar is above the content */
+}
+
+.flexMargin {
+    margin-left: 6%; /* Set margin to 6% of viewport width */
+}
+
+@media (max-width: 1050px) {
+    .flexMargin {
+      margin-left: 10%; /* Adjust this value as needed */
+    }
+    .company-header {
+      margin-left: 12%;
+    }
+}
+
+@media (max-width: 768px) {
+    .flexMargin {
+      margin-left: 15%; /* Adjust this value as needed */
+    }
+}
+  
+@media (max-width: 576px) {
+    .flexMargin {
+      margin-left: 15%; /* Adjust this value as needed */
+    }
+}
+
+.no-select {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+}
+
+.company-header {
+  background-color: #f8f8ff;
+  font-size: 1.9rem;
+  font-weight: bold;
+  /* color: #172626;  */
+  color:#871315;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.heatmap-header {
+  background-color: #f8f8ff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #172626; 
+  /* color:#871315; */
+  display: flex;
+  justify-content: left;
+  align-items: end;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.company-graph-size{
+  display: grid;
+  height: 100%;
+  align-items: center;
+  
+}
+.company-graph-size p {
+  text-align: center;
+  color: #172626;
+  font-weight: bold;
+  align-self: end;
+}
+/* 
+.company-graph-margin{
+  margin-top: 33px;
+} */
+
+table {
+  justify-self: center;
+  display: block;
+  text-align: center;
+  max-height: 300px;
+  width: 100%;
+  overflow-y: scroll;
+
+}
+
+.scroll {
+  overflow-y: auto;
+  height: calc(100vh - 80px); /* Adjust as needed based on the header height */
+}
+
+.search-box {
+  margin: 2%;
+  border: 1px solid black;
+  border-radius: 50px;
+  background: white;
+  padding-left: 2%;
+  height: 2rem;
+}
+
+.table-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}

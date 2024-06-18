@@ -1,0 +1,107 @@
+.body {
+    color: black;
+  
+}
+.bg-color {
+    background-color: #f8f8ff;
+}
+@media screen and (max-width: 1250px) {
+    #hider {
+      visibility: hidden;
+      display: none;
+    }
+
+    .form-container {
+        height: 50vh;
+        background-image: url('../assets/login_darker_orange_mobile_bg.png');
+        /* background-image: linear-gradient(black, white); */
+        background-size: cover;
+        /* overflow-y: scroll; */
+        padding: 5%;
+    }
+    #text-info {
+        color: white;
+        font-size: 1rem;
+        /* padding-left: 10%;
+        margin-left: 20%;
+        margin-right: 20%; */
+        margin-bottom: 2%;
+    }
+  }
+
+.form-container {
+    height: 100vh;
+    width: 100%;
+    background-image: url('../assets/login_darker_orange_bg.png');
+    background-size: cover;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.fields-form {
+    padding-top: 1%;
+    border: 2px;
+    border-radius: 30px;
+    background-color: white; /* Semi-transparent white background */
+    width: 400px;
+    height: 225px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.input-field {
+    width: calc(60%); /* Adjust for padding and border */
+    padding: 1%;
+    margin: 1%;
+    background-color: rgb(230, 230, 230);
+    padding-left: 3%;
+    border-radius: 10px;
+    color: #000000;
+    border: 1px;
+    
+}
+.send-button {
+    border-radius: 25px;
+    border: 1px solid red;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 90px;
+    height: 40px;
+    /* box-shadow: 0 -1px 0 rgba(0, 0, 0, .04), 0 1px 1px rgba(0, 0, 0, .25); */
+    background: #b20000 !important;
+    color:white;
+    transition: transform .2s;
+}
+
+.send-button:hover{
+    background: rgb(221, 17, 17) !important;
+}
+
+.row-controller {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#text-info {
+    color: white;
+    font-size: 1.4rem;
+    padding-left: 10%;
+    margin-top:10%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 2%;
+}
+
+.forgotpass-heading {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+}

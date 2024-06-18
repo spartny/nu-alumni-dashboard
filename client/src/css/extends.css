@@ -1,0 +1,53 @@
+
+.extend-window{
+    background:#f8f8ff ;
+    color: black;
+    height: 100%;
+    margin-left: 1%;
+    width: 94%;
+    position: absolute;
+    z-index: 0;
+
+}
+.Mdclose-button{
+    color: black;
+    border: 1px solid black;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    font-size: 18px;
+}
+.extended-graph{
+    height: 65%;
+    width: 95%;
+    align-content: center;
+}
+.h2-heading{
+    align-content: center;
+}
+
+.extendwindow-button{
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    width: 7rem;
+    height: 2rem;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.extend-reset{
+    background: red;
+    margin-right: 1%;
+}
+
+.extend-submit{
+    background-color: darkgreen;
+}
+
+.filter-item-align{
+    text-align: center;
+}

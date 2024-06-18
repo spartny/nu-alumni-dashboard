@@ -1,0 +1,117 @@
+.cont {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 30px;
+    width: 600px;
+    height: 400px;
+    padding: 2%;
+    /* box-sizing: border-box; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 2%;
+    }
+    
+.alignment {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box {
+    display:grid;
+    place-content: center;
+}
+
+@media (max-width: 1250px) {
+    #box {
+        display:grid;
+        place-content: center;
+            margin-left: 12%;
+    }
+    .header {
+        margin-left: 12%;
+        }
+
+    .cont {
+        margin-top: 35%;
+    }
+}
+
+.createuser-field {
+    width: 300px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 50px;
+    background: white;
+    padding-left: 2%;
+    /* margin-left: 5% */
+}
+
+.createuser-heading{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 0;
+    margin-bottom: 5%;
+}
+
+.text-weight{
+    font-weight: normal;
+}
+
+
+#button {
+    width: 125px;
+    padding: 10px;
+    background-color: #fead0b;
+    color: black;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    transition: transform 0.4s;
+}
+
+.scroll-y {
+    overflow: scroll;
+    overflow-y: auto;
+    height: calc(100vh - 80px);
+    -ms-overflow-style: none; /* IE 11 */
+    scrollbar-width: none; /* Firefox 64 */
+    }
+
+#button:hover {
+    transform: scale(1.1);
+}
+
+/* #align {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+#align {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-box {
+    text-align: left;
+    margin: 2%
+}
+
+#select {
+    margin: 10%;
+    border: 1px solid black;
+    border-radius: 50px;
+    background: white;
+    padding-left: 2%;
+    height: 2rem;
+}
+
+#inform {
+    color: #FF0000;
+}

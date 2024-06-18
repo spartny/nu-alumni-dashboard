@@ -1,0 +1,131 @@
+body {
+  overflow: hidden;
+}
+.bg-color {
+  background-color: #f8f8ff;
+}
+.navbar {
+  position: absolute;
+  z-index: -1; /* Ensure the navbar is above the content */
+}
+
+/* Main Content */
+.flexMargin {
+  margin-left: 6%; /* Adjust as needed */
+}
+
+.scroll-y {
+  overflow: scroll;
+  overflow-y: auto;
+  height: calc(100vh - 80px);
+  -ms-overflow-style: none; /* IE 11 */
+  scrollbar-width: none; /* Firefox 64 */
+}
+
+@media (max-width: 1050px) {
+  .flexMargin {
+    margin-left: 10%; /* Adjust as needed */
+  }
+  .entrepreneur-header {
+    margin-left: 12%;
+  }
+}
+
+@media (max-width: 768px) {
+  .flexMargin {
+    margin-left: 15%; /* Adjust as needed */
+  }
+}
+  
+@media (max-width: 576px) {
+  .flexMargin {
+    margin-left: 15%; /* Adjust as needed */
+  }
+}
+
+/* Header */
+.entrepreneur-header {
+  background-color: #f8f8ff;
+  font-size: 1.9rem;
+  font-weight: bold;
+  /* color: #172626;  */
+  color:#871315;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+/* Graph Boxes */
+.graph-size {
+  display: grid;
+  height: 280px;
+}
+
+.chart-width{
+  margin-left:2% ;
+  width: 100%;
+}
+.graph-size p {
+  text-align: center;
+  color: #172626;
+  font-weight: bold;
+  margin: 0;
+}
+
+.graph-margin {
+  margin-top: 20px;
+}
+
+/* Labels */
+.entrepreneur-label{
+  background-color:#AE5201 ;
+  height: 80px;
+  width: 170px;
+  border-radius: 30px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  margin-top: 50%;
+}
+
+
+/* Disable text selection */
+.no-select {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+}
+
+/* Scrollable Content */
+.scroll-y {
+  overflow-y: auto;
+  height: calc(100vh - 80px); 
+}
+
+#row {
+  /* border: 2px green solid; */
+  height: 40%;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
+.animation {
+  transition: transform .2s; 
+}
+
+.animation:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+table {
+  display: block;
+  text-align: center;
+  
+  width: 100%;
+  overflow-y: scroll;
+
+}
